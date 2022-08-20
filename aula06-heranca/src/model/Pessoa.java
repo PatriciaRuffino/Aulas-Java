@@ -1,9 +1,11 @@
 package model;
 
 public class Pessoa {
-	private String nome;
+	protected String nome;
 	private int idade;
 	private String endereco;
+	
+	
 	
 	
 	public Pessoa(String nome, int idade, String endereco) {
@@ -47,7 +49,9 @@ public class Pessoa {
 		this.endereco = endereco;
 	}
 	
-	
+
+
+
 	public void mostrar() {
 		System.out.println(this.getClass().toString());
 		System.out.println("Nome: " + nome);

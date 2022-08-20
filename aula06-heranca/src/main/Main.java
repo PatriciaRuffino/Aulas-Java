@@ -11,12 +11,14 @@ public class Main {
 		Pessoa pessoa = new Pessoa("Patricia", 37, "Rua Bonita");
 		pessoa.mostrar();
 		
+		
 		Aluno aluno = new Aluno("Gabriela", 16, "Rua das Flores", "primeiro", "Introdução à Java");
 		aluno.mostrar();
 		
-		Funcionario func = new Funcionario("Luís", 52, "Rua dos Ipês", 5500.00);
+		Funcionario func = new Funcionario("Luís", 52, "Rua dos Ipês", 0);
 		func.mostrar();
+		func.primeiraLetra();
 
-	}
+	} 
 
 }
