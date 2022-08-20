@@ -27,7 +27,7 @@ public class Funcionario extends Pessoa {
 	
 	public void primeiraLetra(){
 		char[] charArr = nome.toCharArray();
-		System.out.print("Primeira letra: "+ charArr[0]);
+		System.out.println("Primeira letra: "+ charArr[0]);
 		
 	}     
 	

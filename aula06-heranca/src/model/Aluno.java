@@ -10,6 +10,10 @@ public class Aluno extends Pessoa{
 		this.semestre = semestre;
 		this.curso = curso;
 	}
+	public Aluno() {
+		super();
+	}
+	
 	public String getSemestre() {
 		return semestre;
 	}
